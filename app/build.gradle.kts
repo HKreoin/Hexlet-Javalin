@@ -27,6 +27,7 @@ dependencies {
     implementation("gg.jte:jte:3.1.9")
     testImplementation(platform("org.junit:junit-bom:5.9.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
+    implementation("net.datafaker:datafaker:2.0.1")
 }
 
 tasks.test {
